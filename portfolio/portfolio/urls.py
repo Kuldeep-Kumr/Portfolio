@@ -37,7 +37,6 @@ urlpatterns = [
 
     path('FF', Views.ff, name="FlitFare"),
     path('HCP', Views.hcp, name="HousingCost"),
-    path('LAP', Views.lap, name="LoanAcceptance"),
     path('INP', Views.inp, name="IrisName"),
     path('NA', Views.na, name="NotebookApp"),
     path('RA', Views.ra, name="RenterApp"),

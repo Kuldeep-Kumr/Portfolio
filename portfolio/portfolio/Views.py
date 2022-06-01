@@ -22,7 +22,6 @@ pr = [
     ('AAS', 'Automated Attendance System'),
     ('FF', 'Flight Fare'),
     ('HCP', 'Housing Cost'),
-    ('LAP', 'Loan Acceptance'),
     ('INP', 'Iris Name'),
     ('RA', 'Renter App'),
     ('NA', 'Notebook App'),
@@ -181,7 +180,7 @@ def BSQL(request):
 # Personal project
 
 def ff(request):
-    webbrowser.open_new('www.github.com')
+    webbrowser.open_new('https://github.com/Kuldeep-Kumr/Ml-Filght_fare_prediction')
     items = []
     for q in range(len(pr)):
         itemi = Dest()
@@ -193,19 +192,7 @@ def ff(request):
 
 
 def hcp(request):
-    webbrowser.open_new('www.github.com')
-    items = []
-    for q in range(len(pr)):
-        itemi = Dest()
-        itemi.pid = pr[q][0]
-        itemi.cimg = pr[q][0] + '.JPG'
-        itemi.cname = pr[q][1]
-        items.append(itemi)
-    return render(request, 'pp.html', {'items': items})
-
-
-def lap(request):
-    webbrowser.open_new('www.github.com')
+    webbrowser.open_new('https://github.com/Kuldeep-Kumr/ML-Housing_cost_prediction')
     items = []
     for q in range(len(pr)):
         itemi = Dest()
@@ -217,7 +204,7 @@ def lap(request):
 
 
 def inp(request):
-    webbrowser.open_new('www.github.com')
+    webbrowser.open_new('https://github.com/Kuldeep-Kumr/Portfolio')
     items = []
     for q in range(len(pr)):
         itemi = Dest()
@@ -229,7 +216,7 @@ def inp(request):
 
 
 def na(request):
-    webbrowser.open_new('www.github.com')
+    webbrowser.open_new('https://github.com/Kuldeep-Kumr/Portfolio')
     items = []
     for q in range(len(pr)):
         itemi = Dest()
@@ -241,7 +228,7 @@ def na(request):
 
 
 def ra(request):
-    webbrowser.open_new('www.github.com')
+    webbrowser.open_new('https://github.com/Kuldeep-Kumr/Portfolio')
     items = []
     for q in range(len(pr)):
         itemi = Dest()
@@ -253,7 +240,7 @@ def ra(request):
 
 
 def osw(request):
-    webbrowser.open_new('www.github.com')
+    webbrowser.open_new('https://github.com/Kuldeep-Kumr/Portfolio')
     items = []
     for q in range(len(pr)):
         itemi = Dest()
@@ -265,7 +252,7 @@ def osw(request):
 
 
 def aas(request):
-    webbrowser.open_new('www.github.com')
+    webbrowser.open_new('https://github.com/Kuldeep-Kumr/Portfolio')
     items = []
     for q in range(len(pr)):
         itemi = Dest()
