@@ -1,0 +1,22 @@
+#Home .photo img{
+margin:0px;
+height:200px;
+width:300px;
+border-radius:15px;
+}
+#Home .photo{
+justify-content:center;
+}
+.head{
+font-size:2rem
+}
+.subhead{
+font-size:1rem;
+}
+.cont a{
+padding-left:5px;
+}
+.cont a svg{
+height:25px;
+width:25px;
+}

@@ -1,0 +1,186 @@
+body{
+    font-family: cursive
+}
+
+
+
+#navbar{
+display: flex;
+top:0px;
+}
+
+#navbar::before{
+top:0px;
+left:0px;
+position:absolute;
+content:' ';
+background-color:#f8f9fa;
+z-index:-1;
+}
+
+#logo{
+text-align:left;
+background-color:#f8f9fa;
+}
+
+#logo img{
+margin-left: 2px;
+margin-left: 2px;
+padding-left: 3px;
+padding-b: 3px;
+width:75px;
+height:75px;
+border-radius:20px;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.navbar-nav {
+    right:0;
+    padding: revert;
+    }
+
+.navbar-brand{
+    font-family: unset;
+    font-style: Italic;
+    border-bottom: solid;
+    font-weight: 600;
+}
+
+#main_home{
+background-image:url("hme.jpg");
+height:1000px;
+width:100%;
+text-align:center;
+display: inline-block;
+vertical-align:middle;
+}
+
+
+#mhome{
+margin-top:5px;
+height:auto;
+width:100%;
+text-align:center;
+vertical-align:center;
+display:grid;
+grid-auto-flow:column;
+padding:5px;
+}
+
+.abt{
+margin-top:5px;
+text-align:center;
+}
+.cont{
+justify-content:center;
+display:flex;
+flex-wrap:wrap;
+}
+.cont a{
+padding:10px;
+}
+
+
+
+#Home{
+margin-top:5px;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+#Home::before{
+content:"";
+position:absolute;
+width:auto;
+height:auto;
+padding:8px 8px;
+}
+#Home .photo{
+background-color: #f8f9fa;
+margin:45px 15px;
+height:auto;
+width:auto;
+display:block;
+text-align:center;
+padding:5px 5px;
+border:5px solid #f8f9fa;
+border-radius:10px;
+}
+#Home .photo img{
+margin:0px;
+height:400px;
+width:500px;
+border-radius:25px;
+}
+
+
+
+
+#exp{
+margin-top:2px;
+height:500px;
+width:100%;
+background-image:url("background_exp.jpg");
+text-align:center;
+display:grid;
+}
+
+#edu{
+margin-top:5px
+height:auto;
+width:100%;
+background: black;
+text-align:center;
+justify-content:center;
+display:flex;
+flex-wrap:wrap;
+padding:5px;
+color: ghostwhite
+}
+
+#edu1{
+height:100%;
+width:100%;
+background-image:url("background_abt.jpg");
+text-align:center;
+display:flex;
+justify-content:flex-end;
+padding:5px;
+color:white;
+}
+.ed{
+margin-top:5px;
+text-align:center;
+}
+img{
+width:100%;
+height:auto;
+}
+.bt {
+    margin:5px;
+    border-radius: 10px;
+    background-color: ##dee1df;;;
+    font-family: inherit;
+}
+
+.head{
+font-size:4rem;
+}
+.ed1{
+margin-top:-5px;
+text-align:right;
+}
+.ed1 a{
+font-size:2rem;
+}
+
+footer div{
+    margin-top: 20px;
+    text-align:center;
+    justify-content:center;
+    background:black;
+    color:white;
+}
